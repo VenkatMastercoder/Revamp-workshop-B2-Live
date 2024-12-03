@@ -1,0 +1,5 @@
+{
+  "liveServer.settings.port": 5501,
+  "prisma-smart-formatter.typescript.defaultFormatter": "vscode.typescript-language-features",
+  "prisma-smart-formatter.typescriptreact.defaultFormatter": "ms-vsliveshare.vsliveshare"
+}

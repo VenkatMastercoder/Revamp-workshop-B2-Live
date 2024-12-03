@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JS DEMO</title>
+</head>
+<body>
+  
+  <p id="para">Hello World</p>
+
+  <button id="btnButton">Change Text</button>
+
+  <script>
+    // Getter Methods
+
+    const paraElement = document.getElementById("para") //<p id="para">Hello World</p>
+    const btn = document.getElementById("btnButton") // <button id="btnButton">Change Text</button>
+
+    btn.addEventListener("click",()=>{
+        console.log("Btn clicked")
+        console.log(paraElement) // innerHTML,innerText,textContent
+        paraElement.textContent = "Hi"
+    })
+
+
+  </script>
+
+</body>
+</html>
